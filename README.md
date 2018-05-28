@@ -2,14 +2,14 @@
 
 ## file tree：
 
-'''
-	code/
-	├── feature_extract.py
-	├── gluon_cnn.py
-	├── im2rec.py
-	├── listgen.py
+```
+	code/  
+	├── feature_extract.py  
+	├── gluon_cnn.py  
+	├── im2rec.py  
+	├── listgen.py  
 	└── preprocess.py
-'''
+```
 
 其中，listgen.py,  im2rec.py用于图像数据的预处理
 
@@ -20,7 +20,7 @@
 ### im2rec.py:
 Im2rec是mxnet提供的小工具，用在这里是为了根据上述lst文件生成.rec文件，保存到../list/目录下
 
-###gluon_cnn.py:
+### gluon_cnn.py:
 
 用mxnet搭建CNN网络,根据数据集训练模型，并将训练好的模型保存到../save/目录下
 
